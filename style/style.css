@@ -1,0 +1,124 @@
+/**
+* GLOBAL
+*/
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color:#f0ebeb;
+    margin: 0;
+    font-family: "Oswald", Arial, Helvetica, sans-serif;
+    }
+
+/**
+* HEADER
+*/
+ .s-header {
+    top: 0px;
+    width: 100%;
+    position: fixed;
+ }   
+ .header {
+    background-color: #fe909b;
+    padding: 20px;
+    display: flex;
+ }
+ .header img {
+    display: block;
+    margin-right: auto;
+    height: 115px;
+    min-height: auto;
+    margin-left: 100px ;
+ } 
+ 
+ .social-media-h {
+    display: block;
+    margin-left: auto;
+    margin-right: 100px ;
+    margin-top: 40px;
+ }
+
+ .fa-youtube {
+     padding: 10px;
+     color: white; 
+ }
+ .fa-instagram {
+    padding: 10px;
+    color: white; 
+ }       
+ .fa-soundcloud {
+    padding: 10px;
+    color: white; 
+ }
+
+ a:hover {
+    opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    opacity: .5;  
+ }
+
+ /**
+* BEATSTORE
+*/
+.s-beatstore {
+    width: 100%;
+    background-color: black;
+    display: block;
+    margin: auto;
+    margin-top: 150px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.player-beats p { text-align: center;
+    color: white;
+    margin: auto;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+iframe {
+    border: 0;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+ /**
+* LEASE
+*/
+.Lease {
+    width: 100%;
+    background-color: #f3f3f3;
+    display: block;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    color: black;
+    margin: auto;
+    padding-top: 50px;
+}
+.Licences-choix {
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+.Licences-choix img {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}    
